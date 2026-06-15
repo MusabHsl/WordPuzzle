@@ -1,0 +1,127 @@
+﻿# =========================================================================================
+# WORD PUZZLE LEVELS DATABASE (0-100)
+# Format: SeviyeNo | Cumle | BeklemeSuresi (Gosterme) | KaristirmaSayisi | Hiz (SwapDuration) | [Opsiyonel] Kavis (ArcHeight) | [Opsiyonel] TuzakZarfSayisi (TrapCount) | [Opsiyonel] BaslangicKonumunuKaristir (RandomizeInitialPositions) | LayoutType
+# NOT: Satir basinda '#' varsa o satir yorumdur, yuklenirken goz ardi edilir.
+# =========================================================================================
+
+# === EÃƒâ€Ã‚ÂÃƒâ€Ã‚Â°TÃƒâ€Ã‚Â°M SEVÃƒâ€Ã‚Â°YESÃƒâ€Ã‚Â° (TUTORIAL) ===
+0 | Thank you | 4.0 | 1 | 1.2 | 150 | 0 | 0 | Grid
+
+# === AÃƒâ€¦Ã‚ÂAMA 1: BAÃƒâ€¦Ã‚ÂLANGIÃƒÆ’Ã¢â‚¬Â¡ VE ISINMA (Seviye 1 - 20) ===
+# Seviye 1-5: 2 Kelimelik yapÃƒâ€Ã‚Â±lar. GÃƒÆ’Ã‚Â¶sterme sÃƒÆ’Ã‚Â¼resi 2.8sn'den 0.8sn'ye daralÃƒâ€Ã‚Â±r.
+1 | Hello friend | 2.8 | 1 | 1.0 | 150 | 0 | 0 | Grid
+2 | Good morning | 2.3 | 2 | 0.9 | 150 | 0 | 0 | Grid
+3 | Come here | 1.8 | 2 | 0.85 | 150 | 0 | 0 | Pyramid
+4 | Sit down | 1.3 | 3 | 0.8 | 150 | 0 | 0 | InversePyramid
+5 | Stand up | 0.8 | 6 | 0.18 | 150 | 0 | 0 | Grid
+
+# Seviye 6-15: 3 Kelimelik yapÃƒâ€Ã‚Â±lar. GÃƒÆ’Ã‚Â¶sterme sÃƒÆ’Ã‚Â¼resi 3.5sn'den 1.0sn'ye daralÃƒâ€Ã‚Â±r.
+6 | Thank you all | 3.5 | 1 | 0.8 | 150 | 0 | 0 | Pyramid
+7 | Open the door | 3.2 | 2 | 0.8 | 150 | 0 | 0 | InversePyramid
+8 | Follow the rules | 2.9 | 2 | 0.75 | 150 | 0 | 1 | Grid
+9 | Look at this | 2.6 | 3 | 0.75 | 150 | 0 | 1 | Pyramid
+10 | Make it happen | 2.3 | 3 | 0.7 | 150 | 0 | 1 | InversePyramid
+11 | Time is running | 2.1 | 4 | 0.7 | 150 | 0 | 1 | Diamond
+12 | Find the answer | 1.8 | 4 | 0.7 | 150 | 0 | 1 | Circle
+13 | Trust your memory | 1.5 | 4 | 0.65 | 150 | 0 | 1 | Grid
+14 | You are master | 1.2 | 5 | 0.65 | 150 | 0 | 1 | Pyramid
+15 | Peace and love | 1.0 | 9 | 0.18 | 150 | 0 | 1 | InversePyramid
+
+# Seviye 16-20: 3 Kelimelik yapÃƒâ€Ã‚Â±lar + Tuzaklar. GÃƒÆ’Ã‚Â¶sterme sÃƒÆ’Ã‚Â¼resi 1.5sn'den 0.8sn'ye daralÃƒâ€Ã‚Â±r. (Tekrara girmemesi iÃƒÆ’Ã‚Â§in sÃƒÆ’Ã‚Â¼reler dÃƒÆ’Ã‚Â¼Ãƒâ€¦Ã…Â¸ÃƒÆ’Ã‚Â¼k tutuldu)
+16 | Keep it real | 1.5 | 5 | 0.65 | 150 | 0 | 1 | Diamond
+17 | See you later | 1.3 | 5 | 0.65 | 150 | 0 | 1 | Circle
+18 | Take a breath | 1.2 | 1 | 0.65 | 150 | 1 | 1 | Grid
+19 | Break a leg | 1.0 | 2 | 0.65 | 150 | 0 | 1 | Pyramid
+20 | Believe in yourself | 0.8 | 3 | 0.65 | 150 | 1 | 1 | InversePyramid
+
+# === AÃƒâ€¦Ã‚ÂAMA 2: TEMPOYU ARTIRIYORUZ (Seviye 21 - 40) ===
+# 4 Kelimelik yapÃƒâ€Ã‚Â±lar. GÃƒÆ’Ã‚Â¶sterme sÃƒÆ’Ã‚Â¼resi 3.0sn'den 0.9sn'ye daralÃƒâ€Ã‚Â±r.
+21 | Focus on your goal | 3.0 | 1 | 0.70 | 150 | 1 | 1 | Diamond
+22 | Life is short story | 2.8 | 2 | 0.70 | 150 | 0 | 1 | Circle
+23 | Change your mind now | 2.7 | 2 | 0.70 | 150 | 1 | 1 | Grid
+24 | Every day is new | 2.6 | 3 | 0.70 | 150 | 0 | 1 | Pyramid
+25 | Do your best today | 2.5 | 3 | 0.70 | 150 | 1 | 1 | InversePyramid
+26 | No pain no gain | 2.4 | 1 | 0.65 | 150 | 2 | 1 | Diamond
+27 | Think outside the box | 2.2 | 3 | 0.65 | 150 | 0 | 1 | Circle
+28 | Dreams come true fast | 2.1 | 3 | 0.65 | 150 | 1 | 1 | Grid
+29 | Count your blessings daily | 2.0 | 4 | 0.65 | 150 | 2 | 1 | Pyramid
+30 | Stay humble work hard | 1.9 | 4 | 0.65 | 150 | 0 | 1 | InversePyramid
+31 | Knowledge is real power | 1.8 | 3 | 0.60 | 150 | 1 | 1 | Diamond
+32 | Actions speak very loud | 1.7 | 2 | 0.60 | 150 | 2 | 1 | Circle
+33 | Time heals all wounds | 1.6 | 4 | 0.60 | 150 | 0 | 1 | Grid
+34 | Practice makes perfect progress | 1.5 | 3 | 0.60 | 150 | 1 | 1 | Pyramid
+35 | Better late than never | 1.4 | 3 | 0.60 | 150 | 2 | 1 | InversePyramid
+36 | Honesty is best policy | 1.3 | 4 | 0.60 | 150 | 0 | 1 | Diamond
+37 | Laughter is good medicine | 1.2 | 3 | 0.60 | 150 | 1 | 1 | Circle
+38 | Stay positive smile always | 1.1 | 3 | 0.60 | 150 | 2 | 1 | Grid
+39 | Keep moving forward daily | 1.0 | 5 | 0.60 | 150 | 0 | 1 | Pyramid
+40 | Enjoy the little things | 0.9 | 4 | 0.60 | 150 | 2 | 1 | InversePyramid
+
+# === AÃƒâ€¦Ã‚ÂAMA 3: TUZAKLAR DEVREYE GÃƒâ€Ã‚Â°RÃƒâ€Ã‚Â°YOR (Seviye 41 - 60) ===
+# 5 Kelimelik yapÃƒâ€Ã‚Â±lar + Tuzaklar. GÃƒÆ’Ã‚Â¶sterme sÃƒÆ’Ã‚Â¼resi 3.5sn'den 1.0sn'ye daralÃƒâ€Ã‚Â±r.
+41 | Success is a journey today | 3.5 | 2 | 0.65 | 150 | 1 | 1 | Diamond
+42 | Creativity takes a lot courage | 3.3 | 1 | 0.65 | 150 | 2 | 1 | Circle
+43 | Simplicity is the ultimate design | 3.2 | 3 | 0.65 | 150 | 1 | 1 | Grid
+44 | Be the change you want | 3.1 | 2 | 0.65 | 150 | 2 | 1 | Pyramid
+45 | Good things take some time | 3.0 | 3 | 0.65 | 150 | 1 | 1 | InversePyramid
+46 | Happiness depends upon our choices | 2.9 | 3 | 0.60 | 150 | 2 | 1 | Diamond
+47 | Failure is mother of success | 2.7 | 4 | 0.60 | 150 | 1 | 1 | Circle
+48 | Small steps make big differences | 2.6 | 3 | 0.60 | 150 | 2 | 1 | Grid
+49 | Believe you can win this | 2.5 | 4 | 0.60 | 150 | 1 | 1 | Pyramid
+50 | Live life to the fullest | 2.4 | 4 | 0.60 | 150 | 2 | 1 | InversePyramid
+51 | Nothing is impossible to try | 2.2 | 4 | 0.60 | 150 | 2 | 1 | Diamond
+52 | Chase your wildest dreams tonight | 2.1 | 4 | 0.60 | 150 | 1 | 1 | Circle
+53 | Make each day your masterpiece | 2.0 | 4 | 0.60 | 150 | 2 | 1 | Grid
+54 | Turn your obstacles into opportunities | 1.9 | 4 | 0.60 | 150 | 1 | 1 | Pyramid
+55 | Great minds think very alike | 1.7 | 4 | 0.60 | 150 | 2 | 1 | InversePyramid
+56 | Patience is a bitter plant | 1.6 | 4 | 0.60 | 150 | 2 | 1 | Diamond
+57 | Smooth seas do not make | 1.4 | 5 | 0.60 | 150 | 1 | 1 | Circle
+58 | Silence is a true friend | 1.3 | 4 | 0.60 | 150 | 2 | 1 | Grid
+59 | Kindness costs absolutely nothing today | 1.1 | 5 | 0.60 | 150 | 2 | 1 | Pyramid
+60 | Look before you leap high | 1.0 | 5 | 0.60 | 150 | 1 | 1 | InversePyramid
+
+# === AÃƒâ€¦Ã‚ÂAMA 4: Ãƒâ€Ã‚Â°LERÃƒâ€Ã‚Â° SEVÃƒâ€Ã‚Â°YE HAFIZA TESTÃƒâ€Ã‚Â° (Seviye 61 - 80) ===
+# GÃƒÆ’Ã‚Â¶sterme sÃƒÆ’Ã‚Â¼resi 3.8sn'den 1.1sn'ye daralÃƒâ€Ã‚Â±r.
+61 | The best is yet to come | 3.8 | 5 | 0.55 | 150 | 1 | 1 | Diamond
+62 | Hard work beats pure talent always | 3.6 | 4 | 0.55 | 150 | 2 | 1 | Circle
+63 | Every cloud has a silver lining | 3.4 | 5 | 0.55 | 150 | 1 | 1 | Grid
+64 | Don't judge book by its cover | 3.3 | 4 | 0.55 | 150 | 2 | 1 | Pyramid
+65 | Where there is will there is | 3.1 | 5 | 0.55 | 150 | 1 | 1 | InversePyramid
+66 | Cleanliness is next to godliness surely | 3.0 | 4 | 0.55 | 150 | 2 | 1 | Diamond
+67 | Beauty is in eye of beholder | 2.8 | 5 | 0.55 | 150 | 1 | 1 | Circle
+68 | A friend in need is friend | 2.7 | 5 | 0.55 | 150 | 2 | 1 | Grid
+69 | Easy come easy go away friend | 2.5 | 5 | 0.55 | 150 | 1 | 1 | Pyramid
+70 | Two wrongs do not make right | 2.4 | 5 | 0.55 | 150 | 2 | 1 | InversePyramid
+71 | Rome was not built in day | 2.2 | 5 | 0.55 | 150 | 1 | 1 | Diamond
+72 | Better safe than sorry my friend | 2.1 | 5 | 0.55 | 150 | 2 | 1 | Circle
+73 | Out of sight out of mind | 2.0 | 5 | 0.55 | 150 | 2 | 1 | Grid
+74 | Birds of a feather flock together | 1.9 | 5 | 0.55 | 150 | 1 | 1 | Pyramid
+75 | Fortune favors the brave people always | 1.7 | 5 | 0.55 | 150 | 2 | 1 | InversePyramid
+76 | Absence makes the heart grow fonder | 1.6 | 5 | 0.55 | 150 | 1 | 1 | Diamond
+77 | Action is foundational key to success | 1.4 | 5 | 0.55 | 150 | 2 | 1 | Circle
+78 | All that glitters is not gold | 1.3 | 5 | 0.55 | 150 | 1 | 1 | Grid
+79 | An apple day keeps doctor away | 1.2 | 5 | 0.55 | 150 | 2 | 1 | Pyramid
+80 | Beggars cannot be choosers in life | 1.1 | 5 | 0.55 | 150 | 2 | 1 | InversePyramid
+
+# === AÃƒâ€¦Ã‚ÂAMA 5: KOZMÃƒâ€Ã‚Â°K KAOS / FÃƒâ€Ã‚Â°NAL (Seviye 81 - 100) ===
+# Final aÃƒâ€¦Ã…Â¸amasÃƒâ€Ã‚Â±: SÃƒÆ’Ã‚Â¼reler 4.0sn'den 1.2sn'ye sÃƒâ€Ã‚Â±kÃƒâ€Ã‚Â±laÃƒâ€¦Ã…Â¸Ãƒâ€Ã‚Â±r.
+81 | Blood is thicker than water always | 4.0 | 4 | 0.50 | 150 | 2 | 1 | Diamond
+82 | Do not put all eggs in | 3.8 | 5 | 0.50 | 150 | 3 | 1 | Circle
+83 | Early bird catches the worm early | 3.6 | 4 | 0.50 | 150 | 2 | 1 | Grid
+84 | God helps those who help themselves | 3.5 | 5 | 0.50 | 150 | 3 | 1 | Pyramid
+85 | Hope for best prepare for worst | 3.3 | 4 | 0.50 | 150 | 2 | 1 | InversePyramid
+86 | If it ain't broke don't fix | 3.2 | 5 | 0.50 | 150 | 3 | 1 | Diamond
+87 | Knowledge speaks but wisdom listens closely | 3.0 | 5 | 0.50 | 150 | 2 | 1 | Circle
+88 | Many hands make light work easily | 2.9 | 5 | 0.50 | 150 | 3 | 1 | Grid
+89 | No man is an island entire | 2.7 | 4 | 0.50 | 150 | 2 | 1 | Pyramid
+90 | Pen is mightier than sword definitely | 2.6 | 5 | 0.50 | 150 | 3 | 1 | InversePyramid
+91 | Strike while the iron is hot | 2.4 | 4 | 0.50 | 150 | 2 | 1 | Diamond
+92 | The squeaky wheel gets the grease | 2.3 | 5 | 0.50 | 150 | 3 | 1 | Circle
+93 | Time and tide wait for no | 2.1 | 4 | 0.50 | 150 | 2 | 1 | Grid
+94 | Too many cooks spoil the broth | 2.0 | 5 | 0.50 | 150 | 3 | 1 | Pyramid
+95 | Well begun is half done already | 1.8 | 4 | 0.50 | 150 | 2 | 1 | InversePyramid
+96 | You cannot have cake and eat | 1.7 | 5 | 0.50 | 150 | 3 | 1 | Diamond
+97 | A chain only strong as weakest | 1.5 | 4 | 0.50 | 150 | 2 | 1 | Circle
+98 | Necessity is mother of all invention | 1.4 | 5 | 0.50 | 150 | 3 | 1 | Grid
+99 | You reap exactly what you sow | 1.3 | 4 | 0.50 | 150 | 2 | 1 | Pyramid
+100 | You are the ultimate cosmic master | 1.2 | 5 | 0.50 | 150 | 3 | 1 | InversePyramid
